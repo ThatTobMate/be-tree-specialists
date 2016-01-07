@@ -49,12 +49,17 @@
   max-height: 600px;
 }
 
+.section-image{
+  height: 240px;
+  /*width: 100%;*/
+}
+
 .logo-image{
   width: 50%;
 }
 
 .overlay{
-  
+
 }
 
 .owl-item {
