@@ -346,10 +346,10 @@
 			animateOut: 'fadeOut',
     		animateIn: 'fadeIn',
 			items: 1,
-			loop: true,
+			loop: false,
 			onInitialized: prepareCarousel,
             onResize: prepareCarousel,
-            autoplay: true,
+            autoplay: false,
             autoplayTimeout:5500
 		});
 		//Configure main slider carousel

@@ -49,6 +49,19 @@
   max-height: 600px;
 }
 
+.logo-image{
+  width: 50%;
+}
+
+.overlay{
+  
+}
+
+.owl-item {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+
 .owl-dot{
   display: none !important;
 }
@@ -4522,7 +4535,7 @@ body {
   font-size: 14px;
   color: #646464;
 }
-#home-slider .overlay {
+/*#home-slider .overlay {
   background: transparent url("../images/overlay.png");
   opacity: 0.5;
   z-index: 0;
@@ -4535,7 +4548,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
+}*/
 .nopadding {
   padding: 0px !important;
 }
