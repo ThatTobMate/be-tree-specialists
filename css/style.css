@@ -4505,13 +4505,13 @@ textarea {
   background: url('http://placehold.it/2000x1406') no-repeat fixed top center;
 }
 #owl-main .item:nth-child(1) {
-  background: url('../images/trees.JPG');
+  background: url('https://s3-eu-west-1.amazonaws.com/edwilsonsite/trees.JPG');
 }
 #owl-main .item:nth-child(2) {
-  background: url('../images/home2.jpg');
+  background: url('https://s3-eu-west-1.amazonaws.com/edwilsonsite/home2.jpg');
 }
 #owl-main .item:nth-child(3) {
-  background: url('../images/home3.jpg');
+  background: url('https://s3-eu-west-1.amazonaws.com/edwilsonsite/home3.jpg');
 }
 @media (max-width: 767px) {
   #presentation .subtitle {
