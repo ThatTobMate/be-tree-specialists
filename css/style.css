@@ -4510,7 +4510,7 @@ textarea {
   background: url('http://placehold.it/2000x1406') no-repeat fixed top center;
 }
 #owl-main .item:nth-child(1) {
-  background: url('../images/background-alt.jpg');
+  background: url('https://s3-eu-west-1.amazonaws.com/edwilsonsite/tree2.jpg');
 }
 #owl-main .item:nth-child(2) {
   background: url('https://s3-eu-west-1.amazonaws.com/edwilsonsite/home2.jpg');
