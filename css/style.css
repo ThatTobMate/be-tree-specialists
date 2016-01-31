@@ -55,7 +55,7 @@
 }
 
 .logo-image{
-  width: 50%;
+  width: 75%;
 }
 
 .overlay{
@@ -4510,7 +4510,7 @@ textarea {
   background: url('http://placehold.it/2000x1406') no-repeat fixed top center;
 }
 #owl-main .item:nth-child(1) {
-  background: url('https://s3-eu-west-1.amazonaws.com/edwilsonsite/tree2.jpg');
+  background: url('https://s3-eu-west-1.amazonaws.com/edwilsonsite/tree11.jpg');
 }
 #owl-main .item:nth-child(2) {
   background: url('https://s3-eu-west-1.amazonaws.com/edwilsonsite/home2.jpg');
