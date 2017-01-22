@@ -266,7 +266,7 @@
                     <img src="https://s3-eu-west-1.amazonaws.com/edwilsonsite/ed.jpg" alt="">
                     <div class="tmb-data">
                         <h3 class="tmb-title">Edward Willson</h3>
-                        <h4 class="tmb-position">Tree Surgeon</h4>
+                        <h4 class="tmb-position">Director</h4>
                     </div>
                 </div>
             </div>
@@ -275,7 +275,7 @@
                     <img src="https://s3-eu-west-1.amazonaws.com/edwilsonsite/bruno.jpg" alt="">
                     <div class="tmb-data">
                         <h3 class="tmb-title">Bruno De Almeida</h3>
-                        <h4 class="tmb-position">Tree Surgeon</h4>
+                        <h4 class="tmb-position">Director</h4>
                     </div>
                 </div>
             </div>
@@ -295,21 +295,27 @@
                 <h3 class="title primary fz50">01268 961454 / 07710 130448</h3>
             </div>
             <div class="jt_col-col-md-12 voffset100">
-                <form id="contactform">
+<!--             <form action="https://formspree.io/your@email.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form> -->
+                <form id="contactform" action="https://formspree.io/thale.android@gmail.com" method="POST">
                     <div class="row text-center contact-form">
                         <div class="jt_col col-md-4">
-                            <input id="name" name="{name}" name="name" type="text" class="required form-control" placeholder="Name">
+                            <input id="name" name="name" name="name" type="text" class="required form-control" placeholder="Name">
                         </div>
                         <div class="jt_col col-md-4">
-                            <input id="email" name="{email}" type="text" class="required form-control" placeholder="Email">
+                            <input id="email" name="_replyto" type="text" class="required form-control" placeholder="Email">
                         </div>
                         <div class="jt_col col-md-4">
-                            <input id="phone" name="{phone}" type="text" class="form-control" placeholder="Phone">
+                            <input id="phone" name="phone" type="text" class="form-control" placeholder="Phone">
                         </div>
                         <div class="jt_col col-md-12">
-                            <textarea id="message" name="{message}" class="required form-control" placeholder="Message"></textarea>
+                            <textarea id="message" name="message" class="required form-control" placeholder="Message"></textarea>
                         </div>
-                        <div class="jt_col col-md-4 col-md-offset-4"><button type="submit" class="button fill">Submit</button></div>
+                        <div class="jt_col col-md-4 col-md-offset-4"><button type="submit" value="send" class="button fill">Submit</button></div>
                         <div class="jt_col col-md-4 col-md-offset-4">
                             <div class="formSent success"><strong>Your Message Has Been Sent!</strong> Thank you for contacting us.</div>
                         </div>

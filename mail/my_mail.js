@@ -29,8 +29,8 @@ sendForm = function(){
 
 
 $(function(){
-  $('form').on('submit', function(event){
-    event.preventDefault()
-    sendForm()
-  })
+  // $('form').on('submit', function(event){
+  //   event.preventDefault()
+  //   sendForm()
+  // })
 })
