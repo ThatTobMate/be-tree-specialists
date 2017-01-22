@@ -3,14 +3,14 @@ sendForm = function(){
   event.preventDefault
 
   dataHash = {
-    '{name}' : $('#name').val(),
-    '{email}' : $('#email').val(),
-    '{phone}' : $('#phone').val(),
-    '{message}' : $('#message').val()
+    'name' : $('#name').val(),
+    '_replyto' : $('#email').val(),
+    'phone' : $('#phone').val(),
+    'message' : $('#message').val()
       }
 
   $.ajax({
-    url: 'http://pooleapp.com/stash/348e5eaa-570d-41fc-85e6-a1368b707124/',
+    url: 'https://formspree.io/thale.android@gmail.com',
     method: 'POST',
     dataType: 'json',
     data: dataHash
@@ -29,8 +29,8 @@ sendForm = function(){
 
 
 $(function(){
-  // $('form').on('submit', function(event){
-  //   event.preventDefault()
-  //   sendForm()
-  // })
+  $('form').on('submit', function(event){
+    event.preventDefault()
+    sendForm()
+  })
 })
