@@ -10,7 +10,7 @@ sendForm = function(){
       }
 
   $.ajax({
-    url: 'https://formspree.io/edward08w@hotmail.co.uk',
+    url: 'https://formspree.io/thale.android@gmail.com',
     method: 'POST',
     dataType: 'json',
     data: dataHash
